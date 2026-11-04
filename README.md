@@ -43,17 +43,17 @@ Add an entry to your existing `plugins` list. Replace the example path with the 
       "options": {
         "bindings": [
           {
+            "id": "review-changes",
+            "key": "ctrl+alt+r",
+            "title": "Review against main",
+            "command": "review",
+            "text": "main"
+          },
+          {
             "id": "goal-toggle",
             "key": "f4",
             "title": "Pause / resume Goal",
             "action": "goal-toggle"
-          },
-          {
-            "id": "resume-goal",
-            "key": "ctrl+alt+r",
-            "title": "Resume Goal",
-            "command": "goal",
-            "text": "resume"
           }
         ]
       }
@@ -62,7 +62,7 @@ Add an entry to your existing `plugins` list. Replace the example path with the 
 }
 ```
 
-No keys are bound by default. The example assigns F4 to toggling and Ctrl+Alt+R to resume only. Actions also appear in the command palette.
+No keys are bound by default. The example assigns Ctrl+Alt+R to the built-in `review` command to compare the current branch with `main`, passed in `text`; replace `main` with your desired base branch. F4 pauses or resumes the current Goal. Actions also appear in the command palette.
 
 ## Behavior
 
