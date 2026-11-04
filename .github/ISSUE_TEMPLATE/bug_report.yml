@@ -1,0 +1,31 @@
+name: Ошибка
+description: Воспроизводимая ошибка горячих клавиш TUI
+body:
+  - type: markdown
+    attributes:
+      value: 'Не добавляйте секреты, полные пользовательские конфигурации и содержимое сессий. Для уязвимостей используйте SECURITY.md'
+  - type: input
+    id: versions
+    attributes:
+      label: Версии
+      description: Версии пакета, OpenCode, Node.js, ОС и терминала
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Шаги воспроизведения
+      description: Минимальная обезличенная привязка и последовательность действий
+    validations:
+      required: true
+  - type: textarea
+    id: result
+    attributes:
+      label: Ожидаемый и фактический результат
+    validations:
+      required: true
+  - type: textarea
+    id: context
+    attributes:
+      label: Контекст TUI
+      description: Текущая сессия, открытые модальные формы, черновик, повторы клавиши и перезагрузка конфигурации

@@ -1,0 +1,22 @@
+name: Предложение
+description: Изменение поведения или конфигурации
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Задача пользователя
+      description: Какую задачу сейчас нельзя решить?
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Предлагаемое поведение
+      description: Опишите явную конфигурацию и влияние на существующие привязки
+    validations:
+      required: true
+  - type: textarea
+    id: verification
+    attributes:
+      label: Проверка результата
+      description: Позитивный сценарий и ситуации, когда команда не должна запускаться
