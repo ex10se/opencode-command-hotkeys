@@ -19,7 +19,7 @@ TUI OpenCode 2.2.5. Для сборки из исходников нужны Nod
 ```sh
 mkdir -p "$HOME/.local/share/opencode-command-hotkeys-install"
 cd "$HOME/.local/share/opencode-command-hotkeys-install"
-npm install --ignore-scripts opencode-command-hotkeys@0.1.0
+npm install --ignore-scripts opencode-command-hotkeys@0.1.1
 ```
 
 В `cli.json` укажите абсолютный путь к установленному каталогу пакета, заканчивающийся на `node_modules/opencode-command-hotkeys`.

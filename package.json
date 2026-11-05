@@ -1,6 +1,6 @@
 {
   "name": "opencode-command-hotkeys",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Configurable session command hotkeys for the OpenCode TUI",
   "license": "MIT",
   "type": "module",

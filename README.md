@@ -19,7 +19,7 @@ Install the package in a dedicated directory:
 ```sh
 mkdir -p "$HOME/.local/share/opencode-command-hotkeys-install"
 cd "$HOME/.local/share/opencode-command-hotkeys-install"
-npm install --ignore-scripts opencode-command-hotkeys@0.1.0
+npm install --ignore-scripts opencode-command-hotkeys@0.1.1
 ```
 
 In `cli.json`, use the absolute path to the installed package directory, ending in `node_modules/opencode-command-hotkeys`.
